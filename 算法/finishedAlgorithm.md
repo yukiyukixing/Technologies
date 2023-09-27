@@ -1,6 +1,10 @@
 >算法。
 
->⭐：简单，⭐⭐：中等，⭐⭐⭐：困难。
+>⭐：简单
+
+>⭐⭐：中等
+
+>⭐⭐⭐：困难
 
 >这里的难度是题目的实际难度。
 
@@ -14,7 +18,7 @@
 
 # 双指针
 
-## 数组
+## 快慢指针 数组
 
 | 题号 | 地址 | 是否已刷 | 难度 |
 | --- | --- |--- |--- |
@@ -22,8 +26,27 @@
 | 27 | [移除元素](https://leetcode.cn/problems/remove-element/description/) | ✅ | ⭐ |
 | 283 | [移动零](https://leetcode.cn/problems/move-zeroes/description/) | ✅ | ⭐ |
 
-## 链表
+## 快慢指针 链表
 
 | 题号 | 地址 | 是否已刷 | 难度 |
 | --- | --- |--- |--- |
 | 83 | [删除排序链表中的重复元素](https://leetcode.cn/problems/remove-duplicates-from-sorted-list/description/) | ✅ | ⭐ |
+
+## 左右指针
+
+| 题号 | 地址 | 是否已刷 | 难度 |
+| --- | --- |--- |--- |
+| 167 | [两数之和 II - 输入有序数组](https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/description/) | ✅ | ⭐ |
+| 344 | [反转字符串](https://leetcode.cn/problems/reverse-string/description/) | ✅ | ⭐ |
+| 5| [最长回文子串](https://leetcode.cn/problems/longest-palindromic-substring/description/) | ✅ | ⭐⭐ |
+
+# 双指针之滑动窗口
+
+| 题号 | 地址 | 是否已刷 | 难度 |
+| --- | --- |--- |--- |
+| 76 | [最小覆盖子串](https://leetcode.cn/problems/minimum-window-substring/description/) | ✅ | ⭐⭐⭐ |
+| 567 | [字符串的排列](https://leetcode.cn/problems/permutation-in-string/description/) | ✅ | ⭐ |
+| 438 | [找到字符串中所有字母异位词](https://leetcode.cn/problems/find-all-anagrams-in-a-string/description/) | ✅ | ⭐ |
+| 3 | [无重复字符的最长子串](https://leetcode.cn/problems/longest-substring-without-repeating-characters/description/) | ✅ | ⭐ |
+
+
