@@ -38,7 +38,10 @@
 | --- | --- |--- |--- |
 | 167 | [两数之和 II - 输入有序数组](https://leetcode.cn/problems/two-sum-ii-input-array-is-sorted/description/) | ✅ | ⭐ |
 | 344 | [反转字符串](https://leetcode.cn/problems/reverse-string/description/) | ✅ | ⭐ |
-| 5| [最长回文子串](https://leetcode.cn/problems/longest-palindromic-substring/description/) | ✅ | ⭐⭐ |
+| 5 | [最长回文子串](https://leetcode.cn/problems/longest-palindromic-substring/description/) | ✅ | ⭐⭐ |
+| 11 | [盛最多水的容器](https://leetcode.cn/problems/container-with-most-water/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 15 | [三数之和](https://leetcode.cn/problems/3sum/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐⭐ |
+| 42 | [接雨水](https://leetcode.cn/problems/trapping-rain-water/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐⭐ |
 
 # 双指针之滑动窗口
 
