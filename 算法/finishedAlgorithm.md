@@ -57,4 +57,4 @@
 | 题号 | 地址 | 是否已刷 | 难度 |
 | --- | --- |--- |--- |
 | 303 | [区域和检索 - 数组不可变](https://leetcode.cn/problems/range-sum-query-immutable/description/) | ✅ | ⭐ |
-| 560 | [和为 K 的子数组](https://leetcode.cn/problems/range-sum-query-immutable/description/) | ✅ | ⭐⭐ |
+| 560 | [和为 K 的子数组](https://leetcode.cn/problems/subarray-sum-equals-k/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐⭐ |
