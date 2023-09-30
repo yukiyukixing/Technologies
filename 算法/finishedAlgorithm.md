@@ -58,3 +58,4 @@
 | --- | --- |--- |--- |
 | 303 | [区域和检索 - 数组不可变](https://leetcode.cn/problems/range-sum-query-immutable/description/) | ✅ | ⭐ |
 | 560 | [和为 K 的子数组](https://leetcode.cn/problems/subarray-sum-equals-k/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐⭐ |
+| 304 | [二维区域和检索 - 矩阵不可变](https://leetcode.cn/problems/range-sum-query-2d-immutable/description/) | ✅ | ⭐⭐ |
