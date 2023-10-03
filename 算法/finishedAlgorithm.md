@@ -16,6 +16,7 @@
 | 49 | [字母异位词分组](https://leetcode.cn/problems/group-anagrams/description/) | ✅ | ⭐ |
 | 128 | [最长连续序列](https://leetcode.cn/problems/longest-consecutive-sequence/description/) | ✅ | ⭐⭐ |
 | 41 | [缺失的第一个正数](https://leetcode.cn/problems/first-missing-positive/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐⭐⭐ |
+| 73 | [矩阵置零](https://leetcode.cn/problems/set-matrix-zeroes/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
 
 # 双指针
 
@@ -70,8 +71,21 @@
 | --- | --- |--- |--- |
 | 239 | [滑动窗口最大值](https://leetcode.cn/problems/sliding-window-maximum/description/) | ✅ | ⭐⭐ |
 
+# 模拟
+
+| 题号 | 地址 | 是否已刷 | 难度 |
+| --- | --- |--- |--- |
+| 54 | [螺旋矩阵](https://leetcode.cn/problems/spiral-matrix/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 48 | [旋转图像](https://leetcode.cn/problems/rotate-image/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+
 # 动态规划
 
 | 题号 | 地址 | 是否已刷 | 难度 |
 | --- | --- |--- |--- |
 | 53 | [最大子数组和](https://leetcode.cn/problems/maximum-subarray/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+
+# 贪心算法
+
+| 题号 | 地址 | 是否已刷 | 难度 |
+| --- | --- |--- |--- |
+| 240 | [搜索二维矩阵 II](https://leetcode.cn/problems/search-a-2d-matrix-ii/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
