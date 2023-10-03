@@ -29,11 +29,15 @@
 | 283 | [移动零](https://leetcode.cn/problems/move-zeroes/description/) | ✅ | ⭐ |
 | 56 | [合并区间](https://leetcode.cn/problems/merge-intervals/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
 
-## 快慢指针 链表
+## 双指针 链表
 
 | 题号 | 地址 | 是否已刷 | 难度 |
 | --- | --- |--- |--- |
 | 83 | [删除排序链表中的重复元素](https://leetcode.cn/problems/remove-duplicates-from-sorted-list/description/) | ✅ | ⭐ |
+| 160 | [相交链表](https://leetcode.cn/problems/intersection-of-two-linked-lists/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 206 | [反转链表](https://leetcode.cn/problems/reverse-linked-list/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 234 | [回文链表](https://leetcode.cn/problems/palindrome-linked-list/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 141 | [环形链表](https://leetcode.cn/problems/linked-list-cycle/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
 
 ## 左右指针
 
