@@ -17,6 +17,10 @@
 | 128 | [最长连续序列](https://leetcode.cn/problems/longest-consecutive-sequence/description/) | ✅ | ⭐⭐ |
 | 41 | [缺失的第一个正数](https://leetcode.cn/problems/first-missing-positive/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐⭐⭐ |
 | 73 | [矩阵置零](https://leetcode.cn/problems/set-matrix-zeroes/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 138 | [随机链表的复制](https://leetcode.cn/problems/copy-list-with-random-pointer/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 148 | [排序链表](https://leetcode.cn/problems/sort-list/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 23 | [合并 K 个升序链表](https://leetcode.cn/problems/merge-k-sorted-lists/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 146 | [LRU 缓存](https://leetcode.cn/problems/lru-cache/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
 
 # 双指针
 
@@ -42,6 +46,7 @@
 | 21 | [合并两个有序链表](https://leetcode.cn/problems/merge-two-sorted-lists/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
 | 19 | [删除链表的倒数第 N 个结点](https://leetcode.cn/problems/remove-nth-node-from-end-of-list/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
 | 24 | [两两交换链表中的节点](https://leetcode.cn/problems/swap-nodes-in-pairs/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐⭐ |
+| 25 | [K 个一组翻转链表](https://leetcode.cn/problems/reverse-nodes-in-k-group/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐⭐ |
 
 ## 左右指针
 
