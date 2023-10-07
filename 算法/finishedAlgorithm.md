@@ -92,6 +92,16 @@
 | 48 | [旋转图像](https://leetcode.cn/problems/rotate-image/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
 | 2 | [两数相加](https://leetcode.cn/problems/add-two-numbers/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
 
+# 二叉树
+
+| 题号 | 地址 | 是否已刷 | 难度 |
+| --- | --- |--- |--- |
+| 144 | [二叉树的前序遍历](https://leetcode.cn/problems/binary-tree-preorder-traversal/description/) | ✅ | ⭐ |
+| 94 | [二叉树的中序遍历](https://leetcode.cn/problems/binary-tree-inorder-traversal/description/) | ✅ | ⭐ |
+| 145 | [二叉树的后序遍历](https://leetcode.cn/problems/binary-tree-postorder-traversal/description/) | ✅ | ⭐ |
+| 102 | [二叉树的层序遍历](https://leetcode.cn/problems/binary-tree-level-order-traversal/description/) | ✅ | ⭐ |
+| 104 | [二叉树的最大深度](https://leetcode.cn/problems/maximum-depth-of-binary-tree/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+
 # 动态规划
 
 | 题号 | 地址 | 是否已刷 | 难度 |
