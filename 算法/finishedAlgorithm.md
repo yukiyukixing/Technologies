@@ -101,6 +101,8 @@
 | 145 | [二叉树的后序遍历](https://leetcode.cn/problems/binary-tree-postorder-traversal/description/) | ✅ | ⭐ |
 | 102 | [二叉树的层序遍历](https://leetcode.cn/problems/binary-tree-level-order-traversal/description/) | ✅ | ⭐ |
 | 104 | [二叉树的最大深度](https://leetcode.cn/problems/maximum-depth-of-binary-tree/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 226 | [翻转二叉树](https://leetcode.cn/problems/invert-binary-tree/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 101 | [对称二叉树](https://leetcode.cn/problems/symmetric-tree/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
 
 # 动态规划
 
