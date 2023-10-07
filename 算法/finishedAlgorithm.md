@@ -115,4 +115,3 @@
 | 题号 | 地址 | 是否已刷 | 难度 |
 | --- | --- |--- |--- |
 | 240 | [搜索二维矩阵 II](https://leetcode.cn/problems/search-a-2d-matrix-ii/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
-| 240 | <a href="https://leetcode.cn/problems/search-a-2d-matrix-ii/description/?envType=study-plan-v2&envId=top-100-liked" target="_blank">搜索二维矩阵 II</a> | ✅ | ⭐ |
