@@ -119,6 +119,13 @@
 | 236 | [二叉树的最近公共祖先](https://leetcode.cn/problems/lowest-common-ancestor-of-a-binary-tree/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
 | 124 | [二叉树中的最大路径和](https://leetcode.cn/problems/binary-tree-maximum-path-sum/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐⭐ |
 
+# 深度优先遍历（DFS）
+
+| 题号 | 地址 | 是否已刷 | 难度 |
+| --- | --- |--- |--- |
+| 200 | [岛屿数量](https://leetcode.cn/problems/number-of-islands/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+
+
 # 动态规划
 
 | 题号 | 地址 | 是否已刷 | 难度 |
