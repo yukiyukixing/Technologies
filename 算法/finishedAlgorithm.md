@@ -21,6 +21,7 @@
 | 148 | [排序链表](https://leetcode.cn/problems/sort-list/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
 | 23 | [合并 K 个升序链表](https://leetcode.cn/problems/merge-k-sorted-lists/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
 | 146 | [LRU 缓存](https://leetcode.cn/problems/lru-cache/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 208 | [实现 Trie (前缀树)](https://leetcode.cn/problems/implement-trie-prefix-tree/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
 
 # 双指针
 
@@ -125,6 +126,13 @@
 | --- | --- |--- |--- |
 | 200 | [岛屿数量](https://leetcode.cn/problems/number-of-islands/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
 
+# 广度优先遍历（BFS）
+
+| 题号 | 地址 | 是否已刷 | 难度 |
+| --- | --- |--- |--- |
+| 994 | [腐烂的橘子](https://leetcode.cn/problems/rotting-oranges/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐⭐ |
+| 207 | [课程表](https://leetcode.cn/problems/course-schedule/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐⭐ |
+| 210 | [课程表 II](https://leetcode.cn/problems/course-schedule-ii/description/) | ✅ | ⭐⭐ |
 
 # 动态规划
 
