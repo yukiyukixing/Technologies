@@ -125,6 +125,8 @@
 | 题号 | 地址 | 是否已刷 | 难度 |
 | --- | --- |--- |--- |
 | 200 | [岛屿数量](https://leetcode.cn/problems/number-of-islands/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 17 | [电话号码的字母组合](https://leetcode.cn/problems/letter-combinations-of-a-phone-number/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 79 | [单词搜索](https://leetcode.cn/problems/word-search/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐⭐ |
 
 # 广度优先遍历（BFS）
 
@@ -133,6 +135,17 @@
 | 994 | [腐烂的橘子](https://leetcode.cn/problems/rotting-oranges/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐⭐ |
 | 207 | [课程表](https://leetcode.cn/problems/course-schedule/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐⭐ |
 | 210 | [课程表 II](https://leetcode.cn/problems/course-schedule-ii/description/) | ✅ | ⭐⭐ |
+
+# 回溯
+
+| 题号 | 地址 | 是否已刷 | 难度 |
+| --- | --- |--- |--- |
+| 46 | [全排列](https://leetcode.cn/problems/permutations/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 78 | [子集](https://leetcode.cn/problems/subsets/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 39 | [组合总和](https://leetcode.cn/problems/combination-sum/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 22 | [括号生成](https://leetcode.cn/problems/generate-parentheses/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 131 | [分割回文串](https://leetcode.cn/problems/palindrome-partitioning/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 51 | [N 皇后](https://leetcode.cn/problems/n-queens/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐⭐ |
 
 # 动态规划
 
