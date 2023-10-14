@@ -147,6 +147,16 @@
 | 131 | [分割回文串](https://leetcode.cn/problems/palindrome-partitioning/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
 | 51 | [N 皇后](https://leetcode.cn/problems/n-queens/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐⭐ |
 
+# 二分查找
+
+| 题号 | 地址 | 是否已刷 | 难度 |
+| --- | --- |--- |--- |
+| 35 | [搜索插入位置](https://leetcode.cn/problems/search-insert-position/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 34 | [在排序数组中查找元素的第一个和最后一个位置](https://leetcode.cn/problems/find-first-and-last-position-of-element-in-sorted-array/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 33 | [搜索旋转排序数组](https://leetcode.cn/problems/search-in-rotated-sorted-array/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 153 | [寻找旋转排序数组中的最小值](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 4 | [寻找两个正序数组的中位数](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐⭐⭐ |
+
 # 动态规划
 
 | 题号 | 地址 | 是否已刷 | 难度 |
@@ -157,4 +167,5 @@
 
 | 题号 | 地址 | 是否已刷 | 难度 |
 | --- | --- |--- |--- |
+| 74 | [搜索二维矩阵](https://leetcode.cn/problems/search-a-2d-matrix/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
 | 240 | [搜索二维矩阵 II](https://leetcode.cn/problems/search-a-2d-matrix-ii/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
