@@ -157,6 +157,16 @@
 | 153 | [寻找旋转排序数组中的最小值](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
 | 4 | [寻找两个正序数组的中位数](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐⭐⭐ |
 
+# 栈
+
+| 题号 | 地址 | 是否已刷 | 难度 |
+| --- | --- |--- |--- |
+| 20 | [有效的括号](https://leetcode.cn/problems/valid-parentheses/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 155 | [最小栈](https://leetcode.cn/problems/min-stack/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 394 | [字符串解码](https://leetcode.cn/problems/decode-string/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 739 | [每日温度](https://leetcode.cn/problems/daily-temperatures/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 84 | [柱状图中最大的矩形](https://leetcode.cn/problems/largest-rectangle-in-histogram/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐⭐ |
+
 # 动态规划
 
 | 题号 | 地址 | 是否已刷 | 难度 |
