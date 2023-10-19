@@ -192,6 +192,15 @@
 | 152 | [乘积最大子数组](https://leetcode.cn/problems/maximum-product-subarray/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
 | 416 | [分割等和子集](https://leetcode.cn/problems/partition-equal-subset-sum/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐⭐ |
 
+# 多维动态规划
+
+| 题号 | 地址 | 是否已刷 | 难度 |
+| --- | --- |--- |--- |
+| 62 | [不同路径](https://leetcode.cn/problems/unique-paths/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 64 | [最小路径和](https://leetcode.cn/problems/minimum-path-sum/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 1143 | [最长公共子序列](https://leetcode.cn/problems/longest-common-subsequence/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 72 | [编辑距离](https://leetcode.cn/problems/edit-distance/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+
 # 贪心算法
 
 | 题号 | 地址 | 是否已刷 | 难度 |
