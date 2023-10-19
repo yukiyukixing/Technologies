@@ -33,6 +33,7 @@
 | 27 | [移除元素](https://leetcode.cn/problems/remove-element/description/) | ✅ | ⭐ |
 | 283 | [移动零](https://leetcode.cn/problems/move-zeroes/description/) | ✅ | ⭐ |
 | 56 | [合并区间](https://leetcode.cn/problems/merge-intervals/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 32 | [最长有效括号](https://leetcode.cn/problems/longest-valid-parentheses/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
 
 ## 双指针 链表
 
@@ -156,6 +157,7 @@
 | 33 | [搜索旋转排序数组](https://leetcode.cn/problems/search-in-rotated-sorted-array/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
 | 153 | [寻找旋转排序数组中的最小值](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
 | 4 | [寻找两个正序数组的中位数](https://leetcode.cn/problems/find-minimum-in-rotated-sorted-array/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐⭐⭐ |
+| 295 | [数据流的中位数](https://leetcode.cn/problems/find-median-from-data-stream/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
 
 # 栈
 
@@ -179,7 +181,16 @@
 | --- | --- |--- |--- |
 | 53 | [最大子数组和](https://leetcode.cn/problems/maximum-subarray/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
 | 347 | [前 K 个高频元素](https://leetcode.cn/problems/top-k-frequent-elements/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
-| 295 | [数据流的中位数](https://leetcode.cn/problems/find-median-from-data-stream/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 509 | [斐波那契数](https://leetcode.cn/problems/fibonacci-number/description/) | ✅ | ⭐ |
+| 70 | [爬楼梯](https://leetcode.cn/problems/climbing-stairs/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 118 | [杨辉三角](https://leetcode.cn/problems/pascals-triangle/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 198 | [打家劫舍](https://leetcode.cn/problems/house-robber/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 279 | [完全平方数](https://leetcode.cn/problems/perfect-squares/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐⭐ |
+| 322 | [零钱兑换](https://leetcode.cn/problems/coin-change/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 139 | [单词拆分](https://leetcode.cn/problems/word-break/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 300 | [最长递增子序列](https://leetcode.cn/problems/longest-increasing-subsequence/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 152 | [乘积最大子数组](https://leetcode.cn/problems/maximum-product-subarray/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 416 | [分割等和子集](https://leetcode.cn/problems/partition-equal-subset-sum/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐⭐ |
 
 # 贪心算法
 
