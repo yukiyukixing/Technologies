@@ -34,6 +34,7 @@
 | 283 | [移动零](https://leetcode.cn/problems/move-zeroes/description/) | ✅ | ⭐ |
 | 56 | [合并区间](https://leetcode.cn/problems/merge-intervals/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
 | 32 | [最长有效括号](https://leetcode.cn/problems/longest-valid-parentheses/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 287 | [寻找重复数](https://leetcode.cn/problems/find-the-duplicate-number/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
 
 ## 双指针 链表
 
@@ -62,6 +63,8 @@
 | 42 | [接雨水](https://leetcode.cn/problems/trapping-rain-water/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐⭐ |
 | 189 | [轮转数组](https://leetcode.cn/problems/rotate-array/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
 | 238 | [除自身以外数组的乘积](https://leetcode.cn/problems/product-of-array-except-self/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐⭐ |
+| 75 | [颜色分类](https://leetcode.cn/problems/sort-colors/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 31 | [下一个排列](https://leetcode.cn/problems/next-permutation/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
 
 # 双指针之滑动窗口
 
@@ -211,3 +214,10 @@
 | 55 | [跳跃游戏](https://leetcode.cn/problems/jump-game/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
 | 45 | [跳跃游戏 II](https://leetcode.cn/problems/jump-game-ii/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
 | 763 | [划分字母区间](https://leetcode.cn/problems/partition-labels/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+
+# 技巧
+
+| 题号 | 地址 | 是否已刷 | 难度 |
+| --- | --- |--- |--- |
+| 136 | [只出现一次的数字](https://leetcode.cn/problems/single-number/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 169 | [多数元素](https://leetcode.cn/problems/majority-element/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
