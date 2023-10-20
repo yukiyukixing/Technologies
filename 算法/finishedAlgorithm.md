@@ -64,7 +64,7 @@
 | 189 | [轮转数组](https://leetcode.cn/problems/rotate-array/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
 | 238 | [除自身以外数组的乘积](https://leetcode.cn/problems/product-of-array-except-self/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐⭐ |
 | 75 | [颜色分类](https://leetcode.cn/problems/sort-colors/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
-| 31 | [下一个排列](https://leetcode.cn/problems/next-permutation/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐ |
+| 31 | [下一个排列](https://leetcode.cn/problems/next-permutation/description/?envType=study-plan-v2&envId=top-100-liked) | ✅ | ⭐⭐ |
 
 # 双指针之滑动窗口
 
