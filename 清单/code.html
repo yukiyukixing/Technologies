@@ -10,22 +10,18 @@
 
 <body>
     <script>
-        var trap = function (height) {
-            let left = 0, right = height.length - 1;
-            let leftMax = 0, rightMax = 0, count = 0
-            while (left < right) {
-                leftMax = Math.max(height[left], leftMax)
-                rightMax = Math.max(height[right], rightMax)
-                if (leftMax < rightMax) {
-                    count += leftMax - height[left]
-                    left++
-                } else {
-                    count += rightMax - height[right]
-                    right--
+
+        var twoSum = function (nums, target) {
+            const obj = {}
+            for (let i = 0; i < nums.length; i++) {
+                const diff = target - nums[i]
+                if (obj[diff] !== undefined) {
+                    return [obj[diff], i]
                 }
+                obj[nums[i]] = i
             }
-            return count
         };
+
     </script>
 </body>
 
