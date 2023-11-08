@@ -11,15 +11,15 @@
 <body>
     <script>
 
-        var twoSum = function (nums, target) {
-            const obj = {}
-            for (let i = 0; i < nums.length; i++) {
-                const diff = target - nums[i]
-                if (obj[diff] !== undefined) {
-                    return [obj[diff], i]
-                }
-                obj[nums[i]] = i
+        var reverseList = function (head) {
+            let prev = null
+            while (head) {
+                let next = head.next
+                head.next = prev
+                prev = head
+                head = next
             }
+            return prev
         };
 
     </script>
