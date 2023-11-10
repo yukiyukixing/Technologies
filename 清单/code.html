@@ -11,15 +11,22 @@
 <body>
     <script>
 
-        var reverseList = function (head) {
-            let prev = null
-            while (head) {
-                let next = head.next
-                head.next = prev
-                prev = head
-                head = next
+        var permute = function (nums) {
+            const res = []
+            function backTrack(path) {
+                if (path.length === nums.length) {
+                    return res.push([...path])
+                }
+                for (let num of nums) {
+                    if (!path.includes(num)) {
+                        path.push(num)
+                        backTrack(path)
+                        path.pop()
+                    }
+                }
             }
-            return prev
+            backTrack([])
+            return res
         };
 
     </script>
