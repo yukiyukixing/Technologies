@@ -11,21 +11,20 @@
 <body>
     <script>
 
-        var permute = function (nums) {
-            const res = []
-            function backTrack(path) {
-                if (path.length === nums.length) {
-                    return res.push([...path])
+        var inorderTraversal = function(root) {
+            if(!root) return []
+            // 左 根 右
+            const stk = [],res = []
+            let node = root
+            while(stk.length || node){
+                while(node){
+                    stk.push(node)
+                    node = node.left
                 }
-                for (let num of nums) {
-                    if (!path.includes(num)) {
-                        path.push(num)
-                        backTrack(path)
-                        path.pop()
-                    }
-                }
+                node = stk.pop()
+                res.push(node.val)
+                node = node.right
             }
-            backTrack([])
             return res
         };
 
