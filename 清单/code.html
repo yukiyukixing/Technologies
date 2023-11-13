@@ -11,20 +11,18 @@
 <body>
     <script>
 
-        var levelOrder = function(root) {
-            if(!root) return []
-            const q = [root],res = []
-            while(q.length){
-                const levelSize = q.length,levelRes = []
-                for(let i = 0;i<levelSize;i++){
-                    let node = q.shift();
-                    levelRes.push(node.val)
-                    if(node.left) q.push(node.left)
-                    if(node.right) q.push(node.right)
-                }
-                res.push(levelRes)
+        var postorderTraversal = function (root) {
+            if (!root) return []
+            // 左右中
+            // 中左右 => 中右左 => 左右中
+            const stk = [root], res = []
+            while (stk.length) {
+                let node = stk.pop();
+                res.push(node.val)
+                if (node.left) stk.push(node.left)
+                if (node.right) stk.push(node.right)
             }
-            return res
+            return res.reverse()
         };
 
     </script>
