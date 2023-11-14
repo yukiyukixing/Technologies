@@ -11,18 +11,17 @@
 <body>
     <script>
 
-        var postorderTraversal = function (root) {
-            if (!root) return []
-            // 左右中
-            // 中左右 => 中右左 => 左右中
-            const stk = [root], res = []
-            while (stk.length) {
-                let node = stk.pop();
-                res.push(node.val)
-                if (node.left) stk.push(node.left)
-                if (node.right) stk.push(node.right)
+        var longestConsecutive = function (nums) {
+            const set = new Set(nums)
+            let count = 0
+            for (let num of nums) {
+                if (!set.has(num - 1)) {
+                    let val = num + 1
+                    while (set.has(val)) val++
+                    count = Math.max(count, val - num)
+                }
             }
-            return res.reverse()
+            return count
         };
 
     </script>
