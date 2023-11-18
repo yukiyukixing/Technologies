@@ -11,19 +11,35 @@
 <body>
     <script>
 
-        var lengthOfLongestSubstring = function (s) {
-            let left = 0, right = 0, count = 0;
-            const window = {}
-            while (right < s.length) {
-                let ch = s[right++]
-                window[ch] = (window[ch] || 0) + 1
-                while (window[ch] > 1) {
-                    let d = s[left++]
-                    window[d]--
-                }
-                count = Math.max(count, right - left)
+        var findAnagrams = function (s, p) {
+            const obj = {}
+            for (let ch of p) {
+                obj[ch] = (obj[ch] || 0) + 1
             }
-            return count
+            let left = 0, right = 0, count = 0;
+            const window = {}, res = [], len = Object.keys(obj).length
+            while (right < s.length) {
+                const c = s[right++]
+                if (obj[c]) {
+                    window[c] = (window[c] || 0) + 1
+                    if (obj[c] === window[c]) {
+                        count++
+                    }
+                }
+                while (right - left === p.length) {
+                    if (count === len) {
+                        res.push(left)
+                    }
+                    const d = s[left++]
+                    if (obj[d]) {
+                        if (window[d] === obj[d]) {
+                            count--
+                        }
+                        window[d]--
+                    }
+                }
+            }
+            return res
         };
 
     </script>
