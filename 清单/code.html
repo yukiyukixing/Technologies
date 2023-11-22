@@ -11,23 +11,18 @@
 <body>
     <script>
 
-        var permute = function (nums) {
-            const res = []
-            function backTrack(path) {
-                if (path.length === nums.length) {
-                    res.push([...path])
-                }
-                for (let num of nums) {
-                    if (!path.includes(num)) {
-                        path.push(num)
-                        backTrack(path)
-                        path.pop()
+        // 冒泡排序，相邻元素交换
+        function bubbleSort(nums) {
+            for (let i = 0; i < nums.length - 1; i++) {
+                for (let j = 0; j < nums.length - 1 - i; j++) {
+                    if (nums[j] > nums[j + 1]) {
+                        [nums[j], nums[j + 1]] = [nums[j + 1], nums[j]]
                     }
                 }
             }
-            backTrack([])
-            return res
-        };
+            return nums
+        }
+        console.log(bubbleSort([10, 5, 2, 1, 47, 200, 0]));
 
     </script>
 </body>
