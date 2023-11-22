@@ -11,18 +11,14 @@
 <body>
     <script>
 
-        // 冒泡排序，相邻元素交换
-        function bubbleSort(nums) {
-            for (let i = 0; i < nums.length - 1; i++) {
-                for (let j = 0; j < nums.length - 1 - i; j++) {
-                    if (nums[j] > nums[j + 1]) {
-                        [nums[j], nums[j + 1]] = [nums[j + 1], nums[j]]
-                    }
-                }
+        var getIntersectionNode = function (headA, headB) {
+            let pA = headA, pB = headB
+            while (pA !== pB) {
+                pA = pA ? pA.next : headB
+                pB = pB ? pB.next : headA
             }
-            return nums
-        }
-        console.log(bubbleSort([10, 5, 2, 1, 47, 200, 0]));
+            return pA
+        };
 
     </script>
 </body>
