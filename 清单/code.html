@@ -11,19 +11,13 @@
 <body>
     <script>
 
-        var lengthOfLongestSubstring = function (s) {
-            let left = 0, right = 0, count = 0;
-            const window = {}
-            while (right < s.length) {
-                const c = s[right++]
-                window[c] = (window[c] || 0) + 1
-                while (window[c] > 1) {
-                    const d = s[left++]
-                    window[d]--
-                }
-                count = Math.max(count, right - left)
+        var climbStairs = function (n) {
+            if (n < 3) return n
+            let a = 1, b = 2;
+            for (let i = 3; i <= n; i++) {
+                [a, b] = [b, a + b]
             }
-            return count
+            return b
         };
 
     </script>
