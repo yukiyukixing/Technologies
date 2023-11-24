@@ -11,13 +11,19 @@
 <body>
     <script>
 
-        var getIntersectionNode = function (headA, headB) {
-            let pA = headA, pB = headB
-            while (pA !== pB) {
-                pA = pA ? pA.next : headB
-                pB = pB ? pB.next : headA
+        var lengthOfLongestSubstring = function (s) {
+            let left = 0, right = 0, count = 0;
+            const window = {}
+            while (right < s.length) {
+                const c = s[right++]
+                window[c] = (window[c] || 0) + 1
+                while (window[c] > 1) {
+                    const d = s[left++]
+                    window[d]--
+                }
+                count = Math.max(count, right - left)
             }
-            return pA
+            return count
         };
 
     </script>
