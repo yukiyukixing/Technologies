@@ -11,17 +11,35 @@
 <body>
     <script>
 
-        var longestCommonPrefix = function (strs) {
-            let prefix = strs[0]
-            for (let i = 1; i < strs.length; i++) {
-                while (strs[i].indexOf(prefix) !== 0) {
-                    prefix = prefix.substring(0, prefix.length - 1)
-                    if (prefix === '') {
-                        return ''
+        var findAnagrams = function (s, p) {
+            const obj = {}
+            for (let ch of p) {
+                obj[ch] = (obj[ch] || 0) + 1
+            }
+            let left = 0, right = 0, count = 0;
+            const window = {}, res = [], len = Object.keys(obj).length
+            while (right < s.length) {
+                const c = s[right++]
+                if (obj[c]) {
+                    window[c] = (window[c] || 0) + 1
+                    if (obj[c] === window[c]) {
+                        count++
+                    }
+                }
+                while (right - left === p.length) {
+                    if (count === len) {
+                        res.push(left)
+                    }
+                    const d = s[left++]
+                    if (obj[d]) {
+                        if (obj[d] === window[d]) {
+                            count--
+                        }
+                        window[d]--
                     }
                 }
             }
-            return prefix
+            return res
         };
 
     </script>
