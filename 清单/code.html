@@ -11,33 +11,18 @@
 <body>
     <script>
 
-        var findAnagrams = function (s, p) {
-            const obj = {}
-            for (let ch of p) {
-                obj[ch] = (obj[ch] || 0) + 1
-            }
-            let left = 0, right = 0, count = 0;
-            const window = {}, res = [], len = Object.keys(obj).length
-            while (right < s.length) {
-                const c = s[right++]
-                if (obj[c]) {
-                    window[c] = (window[c] || 0) + 1
-                    if (obj[c] === window[c]) {
-                        count++
-                    }
+        var levelOrder = function (root) {
+            if (!root) return []
+            const q = [root], res = []
+            while (q.length) {
+                const len = q.length, levelRes = []
+                for (let i = 0; i < len; i++) {
+                    const node = q.shift()
+                    levelRes.push(node.val)
+                    if (node.left) q.push(node.left)
+                    if (node.right) q.push(node.right)
                 }
-                while (right - left === p.length) {
-                    if (count === len) {
-                        res.push(left)
-                    }
-                    const d = s[left++]
-                    if (obj[d]) {
-                        if (obj[d] === window[d]) {
-                            count--
-                        }
-                        window[d]--
-                    }
-                }
+                res.push(levelRes)
             }
             return res
         };
