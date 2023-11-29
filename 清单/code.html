@@ -11,20 +11,17 @@
 <body>
     <script>
 
-        var levelOrder = function (root) {
-            if (!root) return []
-            const q = [root], res = []
-            while (q.length) {
-                const len = q.length, levelRes = []
-                for (let i = 0; i < len; i++) {
-                    const node = q.shift()
-                    levelRes.push(node.val)
-                    if (node.left) q.push(node.left)
-                    if (node.right) q.push(node.right)
+        var longestCommonPrefix = function (strs) {
+            let prefix = strs[0]
+            for (let i = 1; i < strs.length; i++) {
+                while (strs[i].indexOf(prefix) !== 0) {
+                    prefix = prefix.substring(0, prefix.length - 1)
+                    if (prefix === '') {
+                        return ''
+                    }
                 }
-                res.push(levelRes)
             }
-            return res
+            return prefix
         };
 
     </script>
