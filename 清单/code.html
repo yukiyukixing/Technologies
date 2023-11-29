@@ -11,17 +11,17 @@
 <body>
     <script>
 
-        var longestCommonPrefix = function (strs) {
-            let prefix = strs[0]
-            for (let i = 1; i < strs.length; i++) {
-                while (strs[i].indexOf(prefix) !== 0) {
-                    prefix = prefix.substring(0, prefix.length - 1)
-                    if (prefix === '') {
-                        return ''
-                    }
+        var longestConsecutive = function (nums) {
+            const set = new Set(nums)
+            let count = 0
+            for (let num of nums) {
+                if (!set.has(num - 1)) {
+                    let val = num + 1
+                    while (set.has(val)) val++
+                    count = Math.max(count, val - num)
                 }
             }
-            return prefix
+            return count
         };
 
     </script>
