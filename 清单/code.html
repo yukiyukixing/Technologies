@@ -11,17 +11,21 @@
 <body>
     <script>
 
-        var longestConsecutive = function (nums) {
-            const set = new Set(nums)
-            let count = 0
-            for (let num of nums) {
-                if (!set.has(num - 1)) {
-                    let val = num + 1
-                    while (set.has(val)) val++
-                    count = Math.max(count, val - num)
+        var mergeTwoLists = function (list1, list2) {
+            const dummy = new ListNode()
+            let curr = dummy
+            while (list1 && list2) {
+                if (list1.val > list2.val) {
+                    curr.next = list2
+                    list2 = list2.next
+                } else {
+                    curr.next = list1
+                    list1 = list1.next
                 }
+                curr = curr.next
             }
-            return count
+            curr.next = list1 ? list1 : list2
+            return dummy.next
         };
 
     </script>
