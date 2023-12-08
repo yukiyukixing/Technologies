@@ -11,17 +11,18 @@
 <body>
     <script>
 
-        // 前序遍历，遍历过程中翻转左子树和右子树
-        var invertTree = function (root) {
-            if (!root) return root
-            const stk = [root]
-            while (stk.length) {
-                const node = stk.pop();
-                [node.left, node.right] = [node.right, node.left]
-                if (node.right) stk.push(node.right)
-                if (node.left) stk.push(node.left)
+        var removeNthFromEnd = function (head, n) {
+            let dummy = new ListNode(0, head)
+            let fast = dummy, slow = dummy;
+            for (let i = 0; i < n + 1; i++) {
+                fast = fast.next
             }
-            return root
+            while (fast) {
+                fast = fast.next
+                slow = slow.next
+            }
+            slow.next = slow.next.next
+            return dummy.next
         };
 
     </script>
