@@ -11,19 +11,17 @@
 <body>
     <script>
 
-        var removeNthFromEnd = function (head, n) {
-            let dummy = new ListNode(0, head)
-            let fast = dummy, slow = dummy;
-            for (let i = 0; i < n + 1; i++) {
-                fast = fast.next
+        // 插入排序
+        function insertSort(arr) {
+            for (let i = 1; i < arr.length; i++) {
+                for (let j = i; j > 0 && arr[j] < arr[j - 1]; j--) {
+                    [arr[j], arr[j - 1]] = [arr[j - 1], arr[j]]
+                }
             }
-            while (fast) {
-                fast = fast.next
-                slow = slow.next
-            }
-            slow.next = slow.next.next
-            return dummy.next
-        };
+            return arr
+        }
+
+        console.log(insertSort([100, 500, 20, 1, 300, 900]));
 
     </script>
 </body>
