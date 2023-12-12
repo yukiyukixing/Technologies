@@ -11,18 +11,20 @@
 <body>
     <script>
 
-        // 前序 中序
-        // 根 左 右
-        // 左 根 右
-        // 从前序取得根 从中序取左右
-        var buildTree = function (preorder, inorder) {
-            if (!preorder.length || !inorder.length) return null
-            const rootVal = preorder[0]
-            const index = inorder.indexOf(rootVal)
-            const root = new TreeNode(rootVal)
-            root.left = buildTree(preorder.slice(1, index + 1), inorder.slice(0, index))
-            root.right = buildTree(preorder.slice(index + 1), inorder.slice(index + 1))
-            return root
+        var levelOrder = function (root) {
+            if (!root) return []
+            const q = [root], res = []
+            while (q.length) {
+                const len = q.length, levelRes = []
+                for (let i = 0; i < len; i++) {
+                    const node = q.shift()
+                    levelRes.push(node.val)
+                    if (node.left) q.push(node.left)
+                    if (node.right) q.push(node.right)
+                }
+                res.push(levelRes)
+            }
+            return res
         };
 
     </script>
