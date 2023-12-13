@@ -11,22 +11,23 @@
 <body>
     <script>
 
-        var levelOrder = function (root) {
-            if (!root) return []
-            const q = [root], res = []
-            while (q.length) {
-                const len = q.length, levelRes = []
-                for (let i = 0; i < len; i++) {
-                    const node = q.shift()
-                    levelRes.push(node.val)
-                    if (node.left) q.push(node.left)
-                    if (node.right) q.push(node.right)
-                }
-                res.push(levelRes)
+        var longestPalindrome = function (s) {
+            let res = ''
+            for (let i = 0; i < s.length; i++) {
+                let odd = expandCenter(s, i, i)
+                let even = expandCenter(s, i, i + 1)
+                res = res.length > odd.length ? res : odd
+                res = res.length > even.length ? res : even
             }
             return res
         };
-
+        function expandCenter(s, left, right) {
+            while (left >= 0 && right < s.length && s[left] === s[right]) {
+                left--
+                right++
+            }
+            return s.substring(left + 1, right)
+        }
     </script>
 </body>
 
