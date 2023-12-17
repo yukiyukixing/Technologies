@@ -11,15 +11,16 @@
 <body>
     <script>
 
-        var twoSum = function (nums, target) {
-            const obj = {}
-            for (let i = 0; i < nums.length; i++) {
-                const num = target - nums[i]
-                if (obj[num] !== undefined) {
-                    return [obj[num], i]
+        var moveZeroes = function (nums) {
+            let slow = 0, fast = 0
+            while (fast < nums.length) {
+                if (nums[fast] !== 0) {
+                    [nums[slow], nums[fast]] = [nums[fast], nums[slow]]
+                    slow++
                 }
-                obj[nums[i]] = i
+                fast++
             }
+            return nums
         };
 
     </script>
