@@ -11,16 +11,19 @@
 <body>
     <script>
 
-        var moveZeroes = function (nums) {
-            let slow = 0, fast = 0
-            while (fast < nums.length) {
-                if (nums[fast] !== 0) {
-                    [nums[slow], nums[fast]] = [nums[fast], nums[slow]]
-                    slow++
+        var maxArea = function (height) {
+            let left = 0, right = height.length - 1, maxCount = 0;
+            while (left < right) {
+                const width = right - left;
+                const hight = Math.min(height[left], height[right])
+                maxCount = Math.max(maxCount, width * hight)
+                if (height[left] < height[right]) {
+                    left++
+                } else {
+                    right--
                 }
-                fast++
             }
-            return nums
+            return maxCount
         };
 
     </script>
