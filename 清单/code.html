@@ -11,19 +11,18 @@
 <body>
     <script>
 
-        var lengthOfLongestSubstring = function (s) {
-            let left = 0, right = 0, maxLen = 0;
-            const window = {}
-            while (right < s.length) {
-                const ch = s[right++]
-                window[ch] = (window[ch] || 0) + 1
-                while (window[ch] > 1) {
-                    const d = s[left++]
-                    window[d]--
+        var subarraySum = function (nums, k) {
+            let preSum = 0, count = 0;
+            const map = new Map()
+            map.set(0, 1)
+            for (let num of nums) {
+                preSum += num
+                if (map.has(preSum - k)) {
+                    count += map.get(preSum - k)
                 }
-                maxLen = Math.max(maxLen, right - left)
+                map.set(preSum, (map.get(preSum) || 0) + 1)
             }
-            return maxLen
+            return count
         };
 
     </script>
