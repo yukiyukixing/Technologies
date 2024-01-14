@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>2023微习惯</title>
+</head>
+
+<body>
+    <script>
+
+        var merge = function (intervals) {
+            intervals.sort((a, b) => a[0] - b[0])
+            let slow = 0, fast = 0;
+            while (fast < intervals.length) {
+                if (intervals[slow][1] >= intervals[fast][0]) {
+                    intervals[slow][1] = Math.max(intervals[slow][1], intervals[fast][1])
+                } else {
+                    slow++
+                    intervals[slow] = intervals[fast]
+                }
+                fast++
+            }
+            return intervals.slice(0, slow + 1)
+        };
+
+    </script>
+</body>
+
+</html>
